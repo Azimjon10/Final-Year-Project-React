@@ -1,0 +1,612 @@
+.student-registration-addprofile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.student-registration-addprofile-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.student-registration-addprofile-icon {
+  width: 24px;
+  height: 24px;
+}
+.student-registration-addprofile-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.student-registration-addprofile-image {
+  width: 100px;
+  object-fit: cover;
+}
+.student-registration-addprofile-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.student-registration-addprofile-header {
+  width: 1649px;
+  height: 113px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth2);
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.student-registration-addprofile-btn-group {
+  right: 0px;
+  bottom: 33px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.student-registration-addprofile-login {
+  top: -41px;
+  left: -276px;
+  position: absolute;
+  align-self: flex-end;
+  transition: 0.3s;
+  border-width: 0px;
+}
+.student-registration-addprofile-login:hover {
+  animation: revert;
+  transition: initial;
+  font-display: revert;
+  background-color: var(--dl-color-primary-300);
+}
+
+.student-registration-addprofile-register {
+  top: -41px;
+  left: -164px;
+  color: #ffffff;
+  position: absolute;
+  transition: 0.3s;
+  background-color: var(--dl-color-primary-100);
+}
+.student-registration-addprofile-register:hover {
+  background-color: var(--dl-color-primary-300);
+}
+.student-registration-addprofile-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.student-registration-addprofile-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.student-registration-addprofile-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.student-registration-addprofile-image1 {
+  height: 2rem;
+}
+.student-registration-addprofile-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student-registration-addprofile-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.student-registration-addprofile-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.student-registration-addprofile-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.student-registration-addprofile-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.student-registration-addprofile-image2 {
+  width: 100px;
+  object-fit: cover;
+}
+.student-registration-addprofile-icon12 {
+  top: 41px;
+  left: 265px;
+  color: var(--dl-color-scheme-white);
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-self: center;
+  transition: 0.5s;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius4);
+  border-top-right-radius: var(--dl-radius-radius-radius4);
+  border-bottom-left-radius: var(--dl-radius-radius-radius4);
+  border-bottom-right-radius: var(--dl-radius-radius-radius4);
+}
+.student-registration-addprofile-icon12:hover {
+  border-width: 1px;
+  background-color: #ffffff;
+}
+.student-registration-addprofile-image3 {
+  top: -6px;
+  left: 126px;
+  width: 195px;
+  height: 129px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.student-registration-addprofile-container4 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.student-registration-addprofile-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.student-registration-addprofile-image4 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.student-registration-addprofile-container5 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.student-registration-addprofile-text15 {
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.student-registration-addprofile-text16 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+}
+@media(max-width: 1600px) {
+  .student-registration-addprofile-container1 {
+    top: 616px;
+    left: 950px;
+    width: 542px;
+    height: 330px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-header {
+    width: 1558px;
+  }
+  .student-registration-addprofile-register {
+    top: -40px;
+    left: -158px;
+  }
+  .student-registration-addprofile-icon12 {
+    display: none;
+  }
+  .student-registration-addprofile-image3 {
+    top: -8px;
+    left: 85px;
+    margin: auto;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .student-registration-addprofile-container1 {
+    top: 150px;
+    left: 250px;
+    right: var(--dl-space-space-halfunit);
+    width: 865px;
+    height: 476px;
+    margin: auto;
+    position: absolute;
+    padding-top: var(--dl-space-space-halfunit);
+    border-color: #10132b;
+    border-width: 1px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    margin-bottom: auto;
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #ffffff;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  }
+  .student-registration-addprofile-textinput {
+    top: 90px;
+    right: 22px;
+    width: 393px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-textinput1 {
+    top: 385px;
+    left: 25px;
+    width: 393px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-textinput2 {
+    top: 279px;
+    left: 25px;
+    width: 393px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-textinput3 {
+    top: 183px;
+    left: 25px;
+    width: 393px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-textinput4 {
+    top: 90px;
+    left: 25px;
+    width: 174px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-textinput5 {
+    top: 90px;
+    left: 249px;
+    width: 174px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #616060;
+  }
+  .student-registration-addprofile-text {
+    top: 61px;
+    left: 250px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text01 {
+    top: 250px;
+    left: 29px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text02 {
+    top: 60px;
+    left: 454px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text03 {
+    top: 348px;
+    left: 29px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text04 {
+    top: 155px;
+    left: 29px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text05 {
+    top: 61px;
+    left: 29px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text06 {
+    top: 14px;
+    left: 21px;
+    color: #4e4d4d;
+    margin: auto;
+    position: absolute;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .student-registration-addprofile-icon {
+    top: 400px;
+    left: 383px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-container2 {
+    top: 178px;
+    right: 19px;
+    width: 393px;
+    height: 52px;
+    margin: auto;
+    position: absolute;
+    border-color: #e3fb04;
+    border-style: solid;
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: #ebf1be;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  }
+  .student-registration-addprofile-image {
+    top: 269px;
+    left: 444px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-icon02 {
+    top: 191px;
+    fill: #b9b531;
+    left: 468px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text07 {
+    top: 194px;
+    color: #929205;
+    right: 45px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text08 {
+    top: 269px;
+    left: 563px;
+    color: #676060;
+    margin: auto;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .student-registration-addprofile-text09 {
+    top: 301px;
+    left: 564px;
+    color: #676060;
+    margin: auto;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .student-registration-addprofile-button {
+    top: 333px;
+    left: 561px;
+    margin: auto;
+    position: absolute;
+    background-color: var(--dl-color-gray-900);
+  }
+  .student-registration-addprofile-text10 {
+    top: 347px;
+    color: var(--dl-color-gray-500);
+    right: 65px;
+    margin: auto;
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .student-registration-addprofile-button1 {
+    left: 559px;
+    color: #b11a1a;
+    bottom: 36px;
+    position: absolute;
+    border-color: #c90d0d;
+  }
+  .student-registration-addprofile-button2 {
+    top: 553px;
+    left: 746px;
+    color: #1da42b;
+    margin: auto;
+    position: absolute;
+    border-color: #26ce43;
+  }
+  .student-registration-addprofile-text11 {
+    top: 35px;
+    left: 261px;
+    color: #10132b;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+  .student-registration-addprofile-header {
+    top: 1px;
+    left: -1px;
+    margin: auto;
+    position: absolute;
+    max-width: 100%;
+    border-color: #10132b;
+    border-width: 1px;
+  }
+  .student-registration-addprofile-login {
+    top: -42px;
+    left: -326px;
+  }
+  .student-registration-addprofile-register {
+    top: -41px;
+    left: -216px;
+  }
+  .student-registration-addprofile-icon12 {
+    display: none;
+  }
+  .student-registration-addprofile-image3 {
+    top: -5px;
+    left: 48px;
+  }
+  .student-registration-addprofile-container4 {
+    left: -4px;
+    width: 239px;
+    bottom: -6px;
+    height: 893px;
+    margin: auto;
+    position: absolute;
+    border-style: solid;
+    background-color: #10132b;
+  }
+  .student-registration-addprofile-text12 {
+    top: 40px;
+    left: 65px;
+    color: #d0c8c8;
+    margin: auto;
+    position: absolute;
+    font-style: normal;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .student-registration-addprofile-text13 {
+    top: 75px;
+    left: 64px;
+    color: #d0c8c8;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .student-registration-addprofile-text14 {
+    top: 110px;
+    left: 64px;
+    color: #d0c8c8;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .student-registration-addprofile-profile {
+    right: -11px;
+    bottom: 17px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-text15 {
+    color: #d0c8c8;
+  }
+  .student-registration-addprofile-text16 {
+    color: #f7f2f2;
+  }
+}
+@media(max-width: 991px) {
+  .student-registration-addprofile-login {
+    top: -40px;
+    left: -374px;
+  }
+  .student-registration-addprofile-register {
+    top: -41px;
+    left: -245px;
+  }
+  .student-registration-addprofile-icon12 {
+    display: none;
+  }
+  .student-registration-addprofile-image3 {
+    top: -8px;
+    left: 19px;
+    margin: auto;
+    position: absolute;
+  }
+  .student-registration-addprofile-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .student-registration-addprofile-image4 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .student-registration-addprofile-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .student-registration-addprofile-btn-group {
+    display: none;
+  }
+  .student-registration-addprofile-icon12 {
+    top: 56px;
+    left: 182px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+  }
+  .student-registration-addprofile-image3 {
+    top: -4px;
+    left: -8px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .student-registration-addprofile-header {
+    width: 479px;
+    padding: var(--dl-space-space-unit);
+  }
+  .student-registration-addprofile-mobile-menu {
+    padding: 16px;
+  }
+  .student-registration-addprofile-icon12 {
+    top: 46px;
+    left: 204px;
+  }
+  .student-registration-addprofile-image3 {
+    top: -23px;
+    left: -20px;
+    margin: var(--dl-space-space-unit);
+    position: absolute;
+  }
+}
